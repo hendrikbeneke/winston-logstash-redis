@@ -1,0 +1,24 @@
+{
+  "name": "winston-logstash-redis",
+  "description": "A Logstash Redis transport for winston",
+  "version": "0.0.1",
+  "author": "Hendrik Beneke <hendrik.beneke@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hendrikbeneke/winston-logstash-redis.git"
+  },
+  "keywords": ["logging", "logstash", "winston", "redis"],
+  "dependencies": {
+    "redis": "0.10.3"
+  },
+  "peerDependencies": {
+    "winston": ">=0.7.3"
+  },
+  "devDependencies": {
+    "winston": ">=0.7.3"
+  },
+  "main": "./lib/winston-logstash-redis",
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
